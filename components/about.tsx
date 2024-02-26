@@ -73,7 +73,7 @@ export default function About() {
           <span className='font-semibold mb-8 capitalize'>creating projects.</span> I&apos;m currently working on{' '}
           <span className='font-semibold mb-8 capitalize'>Aknalop, Wrivate</span> and more.
           <br />
-          Feel free to <span className='font-semibold mb-8 capitalize'>contact me</span> if you&apos;re interested in my work.
+          Feel free to <span className='font-semibold mb-8 capitalize'>contact me</span> if you&apos;re interested in my work!
 
   </motion.p>
 </div>
