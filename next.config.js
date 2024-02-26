@@ -1,4 +1,10 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+    experimental: {
+        serverActions: true,
+      },
+    distDir: 'build',
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
+
