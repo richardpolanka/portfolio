@@ -47,8 +47,8 @@ export default function About() {
             <h1 className="text-7xl lg:mt-5  lg:mr-5">Richard</h1><h1 className="text-7xl lg:mt-5 font-bold ">Polanka</h1>
           </div>
           <p className="mt-2">Daytrader | Entrepreneur | Programmer | Visionary</p>
-          <p className="mt-2">Member of  <Link className='text-[#3A4390] underline' href="https://www.eyp.cz/" target="_blank">European Youth Parliament</Link></p>
-          <p className="mt-2">Member of the Czech Political <Link className='text-[#069271] underline' href="https://svobodni.cz/" target="_blank">Party of the Free</Link></p>
+          <p className="mt-2">Member of the <Link className='text-[#3A4390] underline' href="" target="_blank">--------------</Link></p>
+          <p className="mt-2">Member of the <Link className='text-[#069271] underline' href="" target="_blank">--------------</Link></p>
           
 
           <div className='mt-10 flex items-center justify-center gap-10'>
