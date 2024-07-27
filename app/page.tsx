@@ -1,18 +1,31 @@
-import About from "@/components/about";
-import Projects from "@/components/projects";
-import SectionDivider from "@/components/section-divider";
-import Contact from "@/components/contact";
-import Footer from "@/components/footer";
-export default function Home() {
+import { Hero } from "@/components/hero";
+import { About } from "@/components/about";
+
+import { Services } from "@/components/services";
+import { benefitOne, services} from "@/components/data";
+import { SectionTitle } from "@/components/sectionTitle";
+import { Benefits } from "@/components/benefits";
+
+import { Contact } from "@/components/contact";
+import { Footer } from "@/components/footer";
+
+const Home = () => {
   return (
-  <main className="">
+    <main className="">
+      <Hero />
       <About />
-      <SectionDivider />
-      <Projects />
+      <Services data={services} />
+      <SectionTitle
+        preTitle="Proč si vybrat zrovna nás?"
+      >
+      </SectionTitle>
+      <Benefits data={benefitOne} />
       <div className="flex flex-col items-center px-4">
         <Contact />
         <Footer />
       </div>
     </main>
   );
-}
+};
+
+export default Home;
